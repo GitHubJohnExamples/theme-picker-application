@@ -1,0 +1,52 @@
+body {
+  font-size: 20px;
+}
+
+.app-container {
+  height: 100vh;
+}
+
+.app-title {
+  padding: 1px;
+  text-align: center;
+  background-color: #737272;
+  color: white;
+}
+
+.select-color {
+  padding: 20px;
+  width: 10cm;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #798f6b75;
+}
+
+.active {
+  background-color: #4caf50;
+}
